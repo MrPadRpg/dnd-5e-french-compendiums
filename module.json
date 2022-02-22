@@ -1,0 +1,51 @@
+{
+  "name": "dnd-5e-french-compendiums",
+  "title": "D&D 5e French Compendiums",
+  "description": "Compendiums en français pour Sorts, Objets et Monstres",
+  "version": "0.1.1",
+  "system": [
+    "dnd5e"
+  ],
+  "author": "MrPadRpg",
+  "minimumCoreVersion": "9",
+  "compatibleCoreVersion": "9",
+  "packs": [
+    {
+      "name": "sorts-fr",
+      "label": "Sorts (FR)",
+      "path": "./packs/sorts-fr.db",
+      "entity": "Item",
+      "type": "Item"
+    },
+    {
+      "name": "sorts-maisons-fr",
+      "label": "Sorts Maisons (FR)",
+      "path": "./packs/sorts-maisons-fr.db",
+      "entity": "Item",
+      "type": "Item"
+    },
+    {
+      "name": "objets-fr",
+      "label": "Objets (FR)",
+      "path": "./packs/objets-fr.db",
+      "entity": "Item",
+      "type": "Item"
+    },
+    {
+      "name": "objets-magique-fr",
+      "label": "Objets Magique (FR)",
+      "path": "./packs/objets-magique-fr.db",
+      "entity": "Item",
+      "type": "Item"
+    },
+    {
+      "name": "monstres-et-creatures-fr",
+      "label": "Monstres et Creatures (FR)",
+      "path": "./packs/monstres-et-creatures-fr.db",
+      "entity": "Actor",
+      "type": "Actor"
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/MrPadRpg/FoundryVTT/main/dnd-5e-french-compendiums/module.json",
+  "download": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/my-content-module.zip"
+}
