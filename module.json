@@ -2,7 +2,7 @@
   "name": "dnd-5e-french-compendiums",
   "title": "D&D 5e French Compendiums",
   "description": "Compendiums en français pour Sorts, Objets et Monstres",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "system": [
     "dnd5e"
   ],
