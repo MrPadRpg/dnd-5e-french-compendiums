@@ -2,13 +2,13 @@
   "name": "dnd-5e-french-compendiums",
   "title": "D&D 5e French Compendiums",
   "description": "Compendiums en français pour Sorts, Objets, Historiques, Dons et Manifestations Occultes",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "system": [
     "dnd5e"
   ],
   "author": "MrPadRpg",
-  "minimumCoreVersion": "10",
-  "compatibleCoreVersion": "11",
+  "minimumCoreVersion": "12",
+  "compatibleCoreVersion": "12",
   "packs": [
     {
       "name": "dons-fr",
@@ -61,5 +61,5 @@
     }
   ],
   "manifest": "https://raw.githubusercontent.com/MrPadRpg/dnd-5e-french-compendiums/master/module.json",
-  "download": "https://github.com/MrPadRpg/dnd-5e-french-compendiums/releases/latest/download/0.1.9.zip"
+  "download": "https://github.com/MrPadRpg/dnd-5e-french-compendiums/releases/latest/download/0.2.0.zip"
 }
