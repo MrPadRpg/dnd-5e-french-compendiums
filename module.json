@@ -1,65 +1,98 @@
 {
-  "name": "dnd-5e-french-compendiums",
-  "title": "D&D 5e French Compendiums",
   "description": "Compendiums en français pour Sorts, Objets, Historiques, Dons et Manifestations Occultes",
-  "version": "0.2.0",
-  "system": [
-    "dnd5e"
+  "id": "dnd-5e-french-compendiums",
+  "title": "DnD 5e French Compendiums",
+  "version": "2.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "MrPadRPG",
+      "discord": "padrpg",
+      "url": "https://github.com/MrPadRpg/",
+      "flags": {}
+    }
   ],
-  "author": "MrPadRpg",
-  "minimumCoreVersion": "12",
-  "compatibleCoreVersion": "12",
+  "url": "https://github.com/MrPadRpg/dnd-5e-french-compendiums",
   "packs": [
     {
-      "name": "dons-fr",
-      "label": "Dons (FR)",
-      "path": "./packs/dons-fr.db",
-      "entity": "Item",
-      "type": "Item"
+      "name": "dons",
+      "label": "Dons",
+      "path": "packs/dons",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "name": "sorts-fr",
-      "label": "Sorts (FR)",
-      "path": "./packs/sorts-fr.db",
-      "entity": "Item",
-      "type": "Item"
+      "name": "historiques",
+      "label": "Historiques",
+      "path": "packs/historiques",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "name": "sorts-maisons-fr",
-      "label": "Sorts Maisons (FR)",
-      "path": "./packs/sorts-maisons-fr.db",
-      "entity": "Item",
-      "type": "Item"
+      "name": "manifestations-occultes",
+      "label": "Manifestations Occultes",
+      "path": "packs/manifestations-occultes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "name": "objets-fr",
-      "label": "Objets (FR)",
-      "path": "./packs/objets-fr.db",
-      "entity": "Item",
-      "type": "Item"
+      "name": "objets",
+      "label": "Objets",
+      "path": "packs/objets",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "name": "objets-magique-fr",
-      "label": "Objets Magique (FR)",
-      "path": "./packs/objets-magique-fr.db",
-      "entity": "Item",
-      "type": "Item"
+      "name": "objets-magique",
+      "label": "Objets Magique",
+      "path": "packs/objets-magique",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "name": "historiques-fr",
-      "label": "Historiques (FR)",
-      "path": "./packs/historiques-fr.db",
-      "entity": "Item",
-      "type": "Item"
-    },
-    {
-      "name": "manifestations-occultes-fr",
-      "label": "Manifestations Occultes (FR)",
-      "path": "./packs/manifestations-occultes-fr.db",
-      "entity": "Item",
-      "type": "Item"
+      "name": "sorts",
+      "label": "Sorts",
+      "path": "packs/sorts",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "manifest": "https://raw.githubusercontent.com/MrPadRpg/dnd-5e-french-compendiums/master/module.json",
-  "download": "https://github.com/MrPadRpg/dnd-5e-french-compendiums/releases/latest/download/0.2.0.zip"
+  "download": "https://github.com/MrPadRpg/dnd-5e-french-compendiums/releases/latest/download/0.2.1.zip"
 }
